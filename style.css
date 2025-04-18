@@ -392,6 +392,17 @@ footer .column > a:hover{
     .pricing{
         grid-template-columns: repeat(1, 1fr);
     }
+    @media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 8px 16px;
+    }
+}
 
     footer{
         grid-template-columns: 1fr 150px;
